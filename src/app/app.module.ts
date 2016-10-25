@@ -9,6 +9,7 @@ import { RicetteComponent } from './ricette/ricette.component';
 import { ListaRicetteComponent } from './ricette/lista-ricette/lista-ricette.component';
 import { SingolaRicettaComponent } from './ricette/lista-ricette/singola-ricetta.component';
 import { ricetta } from '././ricetta';
+import { DettagliRicettaComponent } from './dettagli-ricetta/dettagli-ricetta.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { ricetta } from '././ricetta';
     RicetteComponent,
     ListaRicetteComponent,
     SingolaRicettaComponent,
+    DettagliRicettaComponent,
     
     
   ],
